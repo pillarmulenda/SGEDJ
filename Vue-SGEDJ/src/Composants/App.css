@@ -1,6 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container principal pour l'authentification */
+.auth-container {
+  background-color: white;
   padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
   text-align: center;
+}
+
+/* Titre de l'authentification */
+.auth-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Formulaire de connexion */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Groupe de champs de saisie */
+.input-group {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+/* Labels des champs */
+.input-group label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Champs de saisie */
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Message d'erreur */
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Bouton de soumission */
+.submit-btn {
+  padding: 0.8rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
 }
